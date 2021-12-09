@@ -5,7 +5,7 @@ export const SelectCustomOption = (props = {}) => {
   return (
     <div className="currency-option">
       {value ? <i className={`currency-flag currency-flag-${value}`} /> : null}
-      {label ?? ""}
+      {label ?? " "}
     </div>
   );
 };

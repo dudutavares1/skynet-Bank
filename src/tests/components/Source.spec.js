@@ -12,7 +12,7 @@ describe("Source", () => {
     />
   );
 
-  it ("should display only source if date is not set", () => {
+  it ("deve exibir apenas a fonte se a data não estiver definida", () => {
     const comp = getComp();
     expect(comp.find(".source").text())
       .toEqual("Rates: https://api.exchangeratesapi.io");
